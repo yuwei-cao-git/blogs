@@ -1,6 +1,9 @@
 [
   {
     "listing": "/index.html",
-    "items": []
+    "items": [
+      "/posts/datasets-in-forestry/index.html",
+      "/posts/tools-for-3d-trees/index.html"
+    ]
   }
 ]

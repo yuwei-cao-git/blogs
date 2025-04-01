@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://yuwei-cao-git.github.io/blogs/posts/tools-for-3d-trees/index.html</loc>
+    <lastmod>2025-04-01T23:27:40.843Z</lastmod>
+  </url>
+  <url>
     <loc>http://yuwei-cao-git.github.io/blogs/index.html</loc>
     <lastmod>2025-04-01T23:11:21.899Z</lastmod>
   </url>
   <url>
     <loc>http://yuwei-cao-git.github.io/blogs/about.html</loc>
     <lastmod>2025-04-01T23:11:21.898Z</lastmod>
+  </url>
+  <url>
+    <loc>http://yuwei-cao-git.github.io/blogs/posts/datasets-in-forestry/index.html</loc>
+    <lastmod>2025-04-01T23:27:28.324Z</lastmod>
   </url>
 </urlset>

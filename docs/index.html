@@ -78,9 +78,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -191,7 +191,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="data">data <span class="quarto-category-count">(1)</span></div><div class="category" data-category="tools">tools <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -205,7 +205,110 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="data" data-listing-date-sort="1743490800000" data-listing-file-modified-sort="1743550048324" data-listing-date-modified-sort="1743490800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="90">
+<div class="thumbnail">
+<p><a href="./posts/datasets-in-forestry/index.html" class="no-external"></a></p><a href="./posts/datasets-in-forestry/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/datasets-in-forestry/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/datasets-in-forestry/index.html" class="no-external">Datasets in Forestry</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/datasets-in-forestry/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('data'); return false;">
+data
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/datasets-in-forestry/index.html" class="no-external">
 
+<section id="individual-trees" class="level2">
+
+<table class="caption-top table">
+<caption>Datasets of Individual Trees</caption>
+<thead>
+<tr class="header">
+<th>Name</th>
+<th style="text-align: left;">author</th>
+<th style="text-align: right;">data format</th>
+<th style="text-align: center;">No.</th>
+<th style="text-align: center;">species</th>
+<th style="text-align: center;">No.species</th>
+<th style="text-align: center;">location</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>LiPheStream</td>
+<td style="text-align: left;">Samantha Wittke</td>
+<td style="text-align: right;">point cloud</td>
+<td style="text-align: center;">458</td>
+<td style="text-align: center;">Scots Pine, Norway Spruce, Silver…</td><td style="text-align: center;"></td><td style="text-align: center;"></td></tr></tbody></table><ul><li><span class="citation" data-cites="wittke_liphestream_2024"></span></li></ul></section></a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/datasets-in-forestry/index.html" class="no-external">
+<div class="listing-date">
+Apr 1, 2025
+</div>
+<div class="listing-author">
+Yuwei Cao
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="tools" data-listing-date-sort="1743490800000" data-listing-file-modified-sort="1743550060843" data-listing-date-modified-sort="1743490800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="174">
+<div class="thumbnail">
+<p><a href="./posts/tools-for-3d-trees/index.html" class="no-external"></a></p><a href="./posts/tools-for-3d-trees/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/tools-for-3d-trees/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/tools-for-3d-trees/index.html" class="no-external">Tools for tree point clouds</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/tools-for-3d-trees/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('tools'); return false;">
+tools
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/tools-for-3d-trees/index.html" class="no-external">
+
+<table class="caption-top table">
+<caption>Tools for Lidar Point Cloud Management</caption>
+<thead>
+<tr class="header">
+<th>Name</th>
+<th style="text-align: left;">author/institution</th>
+<th style="text-align: right;">language</th>
+<th style="text-align: center;">description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>pytreedb</td>
+<td style="text-align: left;">3DGeo Research Group of Heidelberg University and the Institute of…</td><td style="text-align: right;"></td><td style="text-align: center;"></td></tr></tbody></table><ul><li><ul><li></li><li></li><li></li></ul></li></ul></a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/tools-for-3d-trees/index.html" class="no-external">
+<div class="listing-date">
+Apr 1, 2025
+</div>
+<div class="listing-author">
+Yuwei Cao
+</div>
+</a>
+</div>
+</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items

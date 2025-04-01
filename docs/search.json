@@ -1,10 +1,17 @@
 [
   {
+    "objectID": "posts/tools-for-3d-trees/index.html",
+    "href": "posts/tools-for-3d-trees/index.html",
+    "title": "Tools for tree point clouds",
+    "section": "",
+    "text": "Data management\n\nTools for Lidar Point Cloud Management\n\n\nName\nauthor/institution\nlanguage\ndescription\n\n\n\n\npytreedb\n3DGeo Research Group of Heidelberg University and the Institute of Geography and Geoecology (IFGG) of Karlsruhe Institute of Technology (KIT).\npython + REST\npytreedb is a file- and object-based database for managing laser scanning and inventory data of single trees.\n\n\n\n\npytreedb\n\nmanage data: Trees are imported from GeoJSON files which contain information on tree location, species, and tree properties, and link to one or multiple point clouds. These single tree 3D datasets may be extracted from airborne, UAV-borne or terrestrial laser scanning data.\npytreedb allows filtering the data, e.g., by location, tree properties, linked data types or acquisition dates.\nThe database may be used to populate synthetic forest stands of given species composition and stand density for laser scanning simulations or radiative transfer models.\n\n\n\n\nData processing"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "blogs",
     "section": "",
-    "text": "No matching items"
+    "text": "Datasets in Forestry\n\n\n\n\n\n\ndata\n\n\n\n\n\n\n\n\n\nApr 1, 2025\n\n\nYuwei Cao\n\n\n\n\n\n\n\n\n\n\n\n\nTools for tree point clouds\n\n\n\n\n\n\ntools\n\n\n\n\n\n\n\n\n\nApr 1, 2025\n\n\nYuwei Cao\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -12,5 +19,19 @@
     "title": "About",
     "section": "",
     "text": "About this blog"
+  },
+  {
+    "objectID": "posts/datasets-in-forestry/index.html",
+    "href": "posts/datasets-in-forestry/index.html",
+    "title": "Datasets in Forestry",
+    "section": "",
+    "text": "Datasets of Individual Trees\n\n\nName\nauthor\ndata format\nNo.\nspecies\nNo.species\nlocation\n\n\n\n\nLiPheStream\nSamantha Wittke\npoint cloud\n458\nScots Pine, Norway Spruce, Silver Birch\n3\nHyytiälä (Finland)\n\n\n\n\nLiPheStream - A 18-month high spatiotemporal resolution point cloud time series of Boreal trees from Finland @wittke_liphestream_2024"
+  },
+  {
+    "objectID": "posts/datasets-in-forestry/index.html#individual-trees",
+    "href": "posts/datasets-in-forestry/index.html#individual-trees",
+    "title": "Datasets in Forestry",
+    "section": "",
+    "text": "Datasets of Individual Trees\n\n\nName\nauthor\ndata format\nNo.\nspecies\nNo.species\nlocation\n\n\n\n\nLiPheStream\nSamantha Wittke\npoint cloud\n458\nScots Pine, Norway Spruce, Silver Birch\n3\nHyytiälä (Finland)\n\n\n\n\nLiPheStream - A 18-month high spatiotemporal resolution point cloud time series of Boreal trees from Finland @wittke_liphestream_2024"
   }
 ]

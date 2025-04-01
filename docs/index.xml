@@ -10,6 +10,109 @@
 <atom:link href="http://yuwei-cao-git.github.io/blogs/index.xml" rel="self" type="application/rss+xml"/>
 <description>blogs of my research notes</description>
 <generator>quarto-1.6.19</generator>
-<lastBuildDate>Tue, 01 Apr 2025 23:20:27 GMT</lastBuildDate>
+<lastBuildDate>Tue, 01 Apr 2025 07:00:00 GMT</lastBuildDate>
+<item>
+  <title>Datasets in Forestry</title>
+  <dc:creator>Yuwei Cao</dc:creator>
+  <link>http://yuwei-cao-git.github.io/blogs/posts/datasets-in-forestry/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="tree-species-classification" class="level1">
+
+<section id="individual-trees" class="level2">
+
+<table class="caption-top table">
+<caption>Datasets of Individual Trees</caption>
+<thead>
+<tr class="header">
+<th>Name</th>
+<th style="text-align: left;">author</th>
+<th style="text-align: right;">data format</th>
+<th style="text-align: center;">No.</th>
+<th style="text-align: center;">species</th>
+<th style="text-align: center;">No.species</th>
+<th style="text-align: center;">location</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="https://gitlab.com/fgi_nls/public/liphekit/-/tree/main">LiPheStream</a></td>
+<td style="text-align: left;">Samantha Wittke</td>
+<td style="text-align: right;">point cloud</td>
+<td style="text-align: center;">458</td>
+<td style="text-align: center;">Scots Pine, Norway Spruce, Silver Birch</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">Hyytiälä (Finland)</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><a href="https://gitlab.com/fgi_nls/public/liphekit/-/tree/main">LiPheStream</a> - A 18-month high spatiotemporal resolution point cloud time series of Boreal trees from Finland <span class="citation" data-cites="wittke_liphestream_2024">@wittke_liphestream_2024</span></li>
+</ul>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>data</category>
+  <guid>http://yuwei-cao-git.github.io/blogs/posts/datasets-in-forestry/</guid>
+  <pubDate>Tue, 01 Apr 2025 07:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Tools for tree point clouds</title>
+  <dc:creator>Yuwei Cao</dc:creator>
+  <link>http://yuwei-cao-git.github.io/blogs/posts/tools-for-3d-trees/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="data-management" class="level1">
+
+<table class="caption-top table">
+<caption>Tools for Lidar Point Cloud Management</caption>
+<thead>
+<tr class="header">
+<th>Name</th>
+<th style="text-align: left;">author/institution</th>
+<th style="text-align: right;">language</th>
+<th style="text-align: center;">description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="https://pytreedb.geog.uni-heidelberg.de">pytreedb</a></td>
+<td style="text-align: left;">3DGeo Research Group of Heidelberg University and the Institute of Geography and Geoecology (IFGG) of Karlsruhe Institute of Technology (KIT).</td>
+<td style="text-align: right;">python + REST</td>
+<td style="text-align: center;">pytreedb is a file- and object-based database for managing laser scanning and inventory data of single trees.</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><a href="https://pytreedb.geog.uni-heidelberg.de">pytreedb</a>
+<ul>
+<li>manage data: Trees are imported from GeoJSON files which contain information on tree location, species, and tree properties, and link to one or multiple point clouds. These single tree 3D datasets may be extracted from airborne, UAV-borne or terrestrial laser scanning data.</li>
+<li>pytreedb allows filtering the data, e.g., by location, tree properties, linked data types or acquisition dates.</li>
+<li>The database may be used to populate synthetic forest stands of given species composition and stand density for laser scanning simulations or radiative transfer models.</li>
+</ul></li>
+</ul>
+</section>
+<section id="data-processing" class="level1">
+<h1>Data processing</h1>
+
+
+</section>
+
+ ]]></description>
+  <category>tools</category>
+  <guid>http://yuwei-cao-git.github.io/blogs/posts/tools-for-3d-trees/</guid>
+  <pubDate>Tue, 01 Apr 2025 07:00:00 GMT</pubDate>
+</item>
 </channel>
 </rss>
