@@ -7,12 +7,14 @@ website:
     right:
       - about.qmd
       - icon: github
-        href: https://github.com/
+        href: https://github.com/yuwei-cao-git
       - icon: twitter
         href: https://twitter.com
+  site-url: http://yuwei-cao-git.github.io/blogs
+  description: "blogs of my research notes"
 format:
   html:
-    theme: cosmo
+    theme: litera
     css: styles.css
 
 

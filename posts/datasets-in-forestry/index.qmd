@@ -1,0 +1,18 @@
+---
+title: "Datasets in Forestry"
+author: "Yuwei Cao"
+date: "2025-04-01"
+date-modified: "2025-04-01"
+categories: [data]
+draft: true
+---
+
+# Tree Species Classification
+## Individual Trees
+| Name | author | data format | No. | species | No.species | location |
+|---------|:-----|------:|:------:|:------:| :------: | :------: |
+| [LiPheStream](https://gitlab.com/fgi_nls/public/liphekit/-/tree/main)       | Samantha Wittke   |    point cloud |   458   |    Scots Pine, Norway Spruce, Silver Birch |   3   |  Hyytiälä (Finland)   |
+
+: Datasets of Individual Trees
+
+- [LiPheStream](https://gitlab.com/fgi_nls/public/liphekit/-/tree/main) - A 18-month high spatiotemporal resolution point cloud time series of Boreal trees from Finland @wittke_liphestream_2024
